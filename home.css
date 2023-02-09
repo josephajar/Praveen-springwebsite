@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,100&display=swap");
+
+/* font-family: 'Mukta Malar', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mukta Malar", sans-serif;
+
+}
+
+.carousel-indicators li {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 1px !important;
+
+  background-color: rgb(239, 9, 97) !important;
+  margin: 0px 10px !important;
+}
+
+/* home */
+.home { 
+  font-size: 25px;
+  padding-top: 30px;
+  font-family: "Mukta Malar", sans-serif;
+  padding: 20px 25px;
+}
+
+ .header{
+  text-align: center;
+    text-transform: uppercase; 
+    padding: 25px 30px; 
+    font-family: "Mukta Malar", sans-serif;
+    background-color:rgb(222, 222, 93);
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0px;
+  }
+
+.spring-compression img {
+  object-fit: cover;
+  width: 450px;
+  height: 300px;
+}
+
+
+
+.spring-compression-desc {
+  margin-left: 50px;
+}
+
+.compression-tittle {
+  font-size: 25px;
+
+}
+
+.crusher-tittle {
+  font-size: 25px;
+
+}
+
+/* spring --crusher  */
+
+.spring-crusher img {
+  object-fit: cover;
+  width: 350px;
+  height: 300px;
+}
+.spring-crusher .circle {
+  border-radius: 50px;
+}
+.spring-crusher-desc {
+  margin-right: 50px;
+}
+.crusher-tittle {
+  font-size: 25px;
+  margin-top: 10px;
+
+}
+/* spring - - tension   */
+
+.spring-tension img {
+  object-fit: cover;
+  width: 350px;
+  height: 300px;
+}
+
+
+.spring-tension-desc {
+  margin-left: 100px;
+}
+
+/* phone write media query */
+
+
+@media only screen and (max-width: 576px) {
+
+/* compression spring */
+
+.header {
+  font-size: 20px ;
+  text-align: center ;
+  padding: 5px ;
+}
+
+.spring-compression img{
+  object-fit: cover;
+  width: 290px;
+  height: 185px;
+ 
+ 
+}
+.spring-compression .circle {
+  border-radius: 15px;
+}
+.compression-tittle {
+  font-size: 25px;
+  margin-top: 10px;
+
+}
+/* compression spring */
+
+/* Crusher Springs */
+.crusher-tittle {
+  font-size: 25px;
+  margin-top: 10px;
+
+}
+.spring-crusher img {
+  object-fit: cover;
+  width: 300px;
+  height: 220px;
+
+}
+
+
+
+/* Crusher Springs */
+
+/* Tension Springs */
+
+
+.spring-tension img {
+  object-fit: cover;
+  width: 300px;
+  height: 220px;
+
+}
+
+.spring-tension .circle {
+  border-radius: 15px;
+}
+.spring-tension-desc {
+ margin: 5px auto !important;
+}
+
+}
+
