@@ -70,7 +70,10 @@
 }
 
 
-@media only screen and (max-width: 320px) {
+
+
+@media only screen and (max-width: 375px) and (min-width: 321px)
+{
   .container-fluid{
     padding: 0;
     margin: 0 auto;
@@ -88,7 +91,7 @@
   .mapouter {
     position: relative;
     text-align: right;
-    width: 300px;
+    width: 350px;
     height: 410px;
     margin: 10px auto;
 
@@ -97,7 +100,7 @@
     overflow: hidden;
     background: none !important;
     height: 410px;
-    width: 300px;
+    width: 350px;
 
   }
   .text-start{
@@ -106,12 +109,107 @@
   .text-md-start{
     text-align: center !important;
   }
- 
+ .form-check{
+  padding: 0px;
+  margin: 0;
+  margin-left: 10px;
+  display: flex !important;
+  align-items: center !important;
+ }
 
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px)  {
-  
+@media only screen and (max-width: 425px) and (min-width: 376px)  {
+
+  .container-fluid{
+    padding: 0;
+    margin: 0 auto;
+    
+  }
+  .container{
+    padding: 0;
+    margin: 0 auto; 
+   
+  }
+  .title-name{
+    font-size: 14px !important;
+   
+  }
+  .mapouter {
+    position: relative;
+    text-align: right;
+    width: 400px;
+    height: 410px;
+    margin: 10px auto;
+
+  } 
+   .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 410px;
+    width: 400px;
+
+  }
+  .text-start{
+  padding-left: 20px !important;
+  }
+  .text-md-start{
+    text-align: center !important;
+  }
+ .form-check{
+  padding: 0px;
+  margin: 0;
+  margin-left: 10px;
+  display: flex !important;
+  align-items: center !important;
+ }
+}
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+  .container-fluid{
+    padding: 0;
+    margin: 0 auto;
+    
+  }
+  .container{
+    padding: 0;
+    margin: 0 auto; 
+   
+  }
+  .title-name{
+    font-size: 14px !important;
+   
+  }
+  .mapouter {
+    position: relative;
+    text-align: right;
+    width: 370px;
+    height: 410px;
+    margin: 10px auto;
+
+  } 
+   .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 410px;
+    width: 370px;
+
+  }
+  .text-start{
+  padding-left: 20px !important;
+  }
+  .text-md-start{
+    text-align: center !important;
+  }
+ .form-check{
+  padding: 0px;
+  margin: 0;
+  margin-left: 10px;
+  display: flex !important;
+  align-items: center !important;
+ }
 }
 
 
@@ -121,14 +219,4 @@
 
 
 
-
-
-
-
-@media only screen and (max-width: 375px) {
-  
-}
-@media only screen and (min-width: 576px) {
-
-}
 

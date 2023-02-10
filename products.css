@@ -5,6 +5,15 @@
   margin: 0;
   font-family: "Mukta Malar", sans-serif;
 }
+.container-fluid{
+  padding: 0;
+  margin: 0 auto;
+  
+}
+.container{
+  padding: 0;
+  margin: 0 auto;
+}
 
 .product-header {
   text-align: center;
@@ -82,39 +91,26 @@
 
 
 @media only screen and (max-width: 320px) {
-  .container-fluid{
-    padding: 0;
-    margin: 0 auto;
-    
-  }
-  .container{
-    padding: 0;
-    margin: 0 auto;
-  }
+ 
   .title-name{
     font-size: 14px !important;
    
   }
-
   .product-header {
     font-size: 15px;
     text-align: center;
     padding: 5px;
-
   }
-
- 
   .compression-spring-cards {
     width: 300px !important;
     height: 500px;
     background-color: rgb(180, 43, 43);
     border-radius: 10px;
-  
-  
+    margin: 10px auto !important;
   }
 
   .compression-spring-cards img {
-    margin: 0px auto;
+    margin: 0px auto !important;
     object-fit: cover;
     border-radius: 10px;
     padding: 5px 5px;
@@ -124,25 +120,28 @@
 .Torsion-spring-cards{
   width: 300px !important;
   height: 500px;
-  background-color: rgb(36, 132, 29);
+  background-color: rgb(19, 67, 135) !important;
   border-radius: 10px;
-
+  margin: 10px auto !important;
 }
+
 .Torsion-spring-cards img {
-  margin: 0px auto;
+  margin: 0px auto !important;
   object-fit: cover;
   border-radius: 10px;
   padding: 5px 5px;
   width: 300px !important;
   height: 250px;
 }
+
 .Tension-spring-cards{
   width: 300px !important;
   height: 500px;
   background-color: rgb(175, 157, 179);
   border-radius: 10px;
-
+  margin: 10px auto !important;
 }
+
 .Tension-spring-cards img {
   margin: 0px auto;
   object-fit: cover;
@@ -154,55 +153,43 @@
 
 }
 
+/* @media only screen and (max-width: 600px) and (min-width: 400px)  {...} */
 
 
-
-
-
-@media only screen and (max-width: 375px) {
-  .container-fluid{
-    padding: 0;
-    margin: 0 auto;
-    
-  }
-  .container{
-    padding: 0;
-    margin: 0 auto;
-  }
+@media only screen and (max-width: 375px) and (min-width: 321px)
+{
+ 
   .title-name{
     font-size: 15px;
   }
-
   .product-header {
     font-size: 15px;
     text-align: center;
     padding: 5px;
 
   }
-
- 
-  .compression-spring-cards {
-    width: 325px;
+.compression-spring-cards {
+    width: 350px !important;
     height: 500px;
     background-color: rgb(200, 171, 171);
     border-radius: 10px;
-  
+    margin: 10px auto !important;
   
   }
-
-  .compression-spring-cards img {
-    margin: 0px auto;
+.compression-spring-cards img {
+    margin: 0px auto !important;
     object-fit: cover;
     border-radius: 10px;
     padding: 5px 5px;
-    width: 325px;
+    width: 350px !important;
     height: 250px;
   }
 .Torsion-spring-cards{
-  width: 280px;
+  width:350px !important;
   height: 500px;
   background-color: rgb(36, 132, 29);
   border-radius: 10px;
+  margin: 10px auto !important;
 
 }
 .Torsion-spring-cards img {
@@ -210,42 +197,32 @@
   object-fit: cover;
   border-radius: 10px;
   padding: 5px 5px;
-  width: 325px;
+  width: 350px !important;
   height: 250px;
 }
 .Tension-spring-cards{
-  width: 325px;
+  width: 350px !important;
   height: 500px;
   background-color: rgb(175, 157, 179);
   border-radius: 10px;
+  margin: 10px auto !important;
 
 }
-.Tension-spring-cards img {
-  margin: 0px auto;
-  object-fit: cover;
-  border-radius: 10px;
-  padding: 5px 5px;
-  width: 325px;
-  height: 250px;
-}
-
-
-
-
 
 .Torsion-spring-cards img {
   margin: 0px auto;
   object-fit: cover;
   border-radius: 10px;
   padding: 5px 5px;
-  width: 325px;
+  width: 350px !important;
   height: 250px;
 }
-.Tension-spring-cards{
-  width: 325px;
+.Torsion-spring-cards{
+  width: 350px !important;
   height: 500px;
-  background-color: rgb(175, 157, 179);
+  background-color: rgb(185, 79, 209);
   border-radius: 10px;
+  margin: 10px auto !important;
 
 }
 .Tension-spring-cards img {
@@ -253,22 +230,207 @@
   object-fit: cover;
   border-radius: 10px;
   padding: 5px 5px;
-  width: 325px;
+  width: 350px !important;
   height: 250px;
 }
+.Tension-spring-cards{
+  width: 350px !important;
+  height: 500px;
+  background-color: rgb(175, 157, 179);
+  border-radius: 10px;
+  margin: 10px auto !important;
 
-
+}
 }
 
 
 
-
-@media only screen and (max-width: 576px) {
- 
-
-
-
+@media only screen and (max-width: 425px) and (min-width: 375px)
+{
+  .title-name{
+    font-size: 15px;
+  }
   .product-header {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+
+  }
+.compression-spring-cards {
+    width: 350px !important;
+    height: 500px;
+    background-color: rgb(200, 171, 171);
+    border-radius: 10px;
+    margin: 10px auto !important;
+  
+  }
+.compression-spring-cards img {
+    margin: 0px auto !important;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 5px 5px;
+    width: 350px !important;
+    height: 250px;
+  }
+.Torsion-spring-cards{
+  width:350px !important;
+  height: 500px;
+  background-color: rgb(36, 132, 29);
+  border-radius: 10px;
+  margin: 10px auto !important;
+
+}
+.Torsion-spring-cards img {
+  margin: 0px auto;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 5px 5px;
+  width: 350px !important;
+  height: 250px;
+}
+.Tension-spring-cards{
+  width: 350px !important;
+  height: 500px;
+  background-color: rgb(175, 157, 179);
+  border-radius: 10px;
+  margin: 10px auto !important;
+
+}
+
+.Torsion-spring-cards img {
+  margin: 0px auto;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 5px 5px;
+  width: 350px !important;
+  height: 250px;
+}
+.Torsion-spring-cards{
+  width: 350px !important;
+  height: 500px;
+  background-color: rgb(185, 79, 209);
+  border-radius: 10px;
+  margin: 10px auto !important;
+
+}
+.Tension-spring-cards img {
+  margin: 0px auto;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 5px 5px;
+  width: 350px !important;
+  height: 250px;
+}
+.Tension-spring-cards{
+  width: 350px !important;
+  height: 500px;
+  background-color: rgb(175, 157, 179);
+  border-radius: 10px;
+  margin: 10px auto !important;
+
+}
+
+}
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+
+
+  .card-1{
+    padding: 0;
+    margin: 0;
+  }
+  .title-name{
+    font-size: 15px;
+  }
+  .product-header {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+
+  }
+.compression-spring-cards {
+    width: 220px !important;
+    height: 500px;
+    background-color: rgb(200, 171, 171);
+    border-radius: 10px;
+    
+  
+  }
+.compression-spring-cards img {
+    margin: 0px auto !important;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 5px 5px;
+    width: 220px !important;
+    height: 250px;
+  }
+.Torsion-spring-cards{
+  width: 220px !important;
+  height: 500px;
+  background-color: rgb(36, 132, 29);
+  border-radius: 10px;
+  margin: 10px auto !important;
+
+}
+.Torsion-spring-cards img {
+  margin: 0px auto;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 5px 5px;
+  width: 220px !important;
+  height: 250px;
+}
+.Tension-spring-cards{
+  width: 220px !important;
+  height: 500px;
+  background-color: rgb(175, 157, 179);
+  border-radius: 10px;
+  margin: 10px auto !important;
+
+}
+
+.Torsion-spring-cards img {
+  margin: 0px auto;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 5px 5px;
+  width: 220px !important;
+  height: 250px;
+}
+.Torsion-spring-cards{
+  width: 220px !important;
+  height: 500px;
+  background-color: rgb(185, 79, 209);
+  border-radius: 10px;
+  margin: 10px auto !important;
+
+}
+.Tension-spring-cards img {
+  margin: 0px auto;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 5px 5px;
+  width: 220px !important;
+  height: 250px;
+}
+.Tension-spring-cards{
+  width: 220px !important;
+  height: 500px;
+  background-color: rgb(175, 157, 179);
+  border-radius: 10px;
+  margin: 10px auto !important;
+
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 576px) {
+ .product-header {
     font-size: 18px;
     text-align: start;
     padding: 5px;
@@ -285,6 +447,12 @@
   
 
 }
+
+
+
+
+
+
 
 @media only screen and (min-width:1020px) {
   .compression-spring-cards {
